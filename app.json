@@ -1,3 +1,7 @@
 {
-  "name":"Heroku Basic Auth"
+  "name":"Heroku Basic Auth",
+  "description":"heroku+PHP環境でhtaccessを使用したベーシック認証の基本セット",
+  "repository":"https://github.com/k-usk/heroku-php-htpasswd",
+  "logo": "http://tinyurl.com/qejjvl8",
+  "keywords":["php", "basic"]
 }
