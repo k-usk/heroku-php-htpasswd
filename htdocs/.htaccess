@@ -1,0 +1,16 @@
+Options -Indexes
+
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+
+Satisfy Any
+Order Deny,Allow
+Deny from all
+Allow from env=noAuth
+
+AuthUserFile /app/htdocs/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Please enter your ID and password"
+AuthType Basic
+require valid-user
